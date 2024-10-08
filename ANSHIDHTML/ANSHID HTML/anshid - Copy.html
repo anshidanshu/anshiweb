@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnshiWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     body { 
+              } 
+              header{background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration:none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff777;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(103, 236, 14, 0.842);
+        }
+        form{
+            width: 25%;
+            height: 100%;
+            background-color: #333;
+            border-radius: 5px;
+            align-items: center;
+            padding-left: 12px;
+        }
+        form button{
+            background-color: rgb(12, 201, 75);
+            color: rgba(10, 241, 10, 0.849);
+            border-radius: 10px;
+            padding-left: 40px;
+
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #fff777;
+            color: rgb(15, 26, 5);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 style="background-image: url(./ANSHID\ HTML/);"><font>alg</font></h1>
+
+<header>
+    <h1>Welcome to AnshiWeb!</h1>
+    
+    <nav>
+        <a href="#welcome">Welcome</a>
+        <a href="#about">About</a>
+        <a href="#works">works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="Welcome">
+        <h2>welcome AnshiWeb</h2>
+        <p>welcome to AnshiWeb 
+        </p>
+    </section>
+    
+    
+    <section id="services">
+        <h2>my works</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>POSTER MAKER</li>
+            <li>PHOTOSHOP AND CANVA</li>
+            <li>Content Creation</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+            <li>phone number
+                9961231298
+            </li>
+            <li>Gmail
+                anshidanshuk@gmail.com
+            </li>
+            <li>instagram
+                _anshiiid_nibu
+            </li>
+        </ul>
+        <address>
+            maked by <a href="https://dulkifal.github.io/">ANSHID k</a>.<br> 
+            Visit us at:dulkifal<br>
+            anshidanshuk@gmail.com<br>
+            tuvvur,malappuram<br>
+            kerala,india
+            </address>
+            <form action="/action_page.php">
+                <fieldset>
+                 <legend>Personalia:</legend>
+                 <label for="fname">First name:</label>
+                 <input type="text" id="fname" name="fname"><br><br>
+                 <label for="lname">Last name:</label>
+                 <input type="text" id="lname" name="lname"><br><br>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email"><br><br>
+                 <label for="birthday">Birthday:</label>
+                 <input type="date" id="birthday" name="birthday"><br><br>
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+        
+            <template>
+                <h2>Flower</h2>
+                <img src="hacker jpeg.jpg" width="214" height="204">
+              </template>
+              <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+              img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+              <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+              </map>
+             <script>
+              function showContent() {
+                let temp = document.getElementsByTagName("template")[0];
+                let clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+              }
+             
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; AnshiWeb.</p>
+</footer>
+
+</body>
+</html>

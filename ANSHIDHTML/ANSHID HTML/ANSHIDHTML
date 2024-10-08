@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnshiWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1 style="background-image: url(./ANSHID\ HTML/);"><font>alg</font></h1>
+
+<header>
+    <h1>Welcome to AnshiWeb!</h1>
+    
+    <nav>
+        <a href="#welcome">Welcome</a>
+        <a href="#about">About</a>
+        <a href="#works">works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="Welcome">
+        <h2>welcome AnshiWeb</h2>
+        <p>welcome to AnshiWeb 
+        </p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>AnshiWeb is dedicated to providing high-quality POSTER  tailored to your needs. We focus on creativity and innovation to help your business succeed online.</p>
+    </section>
+
+    <section id="services">
+        <h2>my works</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>POSTER MAKER</li>
+            <li>PHOTOSHOP AND CANVA</li>
+            <li>Content Creation</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+            <li>phone number
+                9961231298
+            </li>
+            <li>Gmail
+                anshidanshuk@gmail.com
+            </li>
+            <li>instagram
+                _anshiiid_nibu
+            </li>
+        </ul>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; AnshiWeb.</p>
+</footer>
+
+</body>
+</html>
